@@ -62,7 +62,7 @@ public class SecurityConfig {
         CorsConfiguration cors = new CorsConfiguration();
         cors.setAllowedOrigins(List.of(
                 "http://localhost:5173",
-                "http://localhost:5174"
+               " https://sipzy.vercel.app"
         ));
         cors.setAllowedMethods(List.of(
                 "GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"
