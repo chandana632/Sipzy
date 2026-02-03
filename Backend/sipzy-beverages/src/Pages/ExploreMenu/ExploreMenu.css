@@ -1,0 +1,46 @@
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+
+.explore-menu-list{
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.rounded-circle{
+    border:1px solid red;
+}
+
+
+
+.explore-menu-list-items{
+    cursor: pointer;
+}
+
+.explore-menu-list-items .active{
+    border: 3px solid #81c784;
+    padding: 2px;
+}
+
+.explore-menu-list-items p {
+    color: rgb(34, 95, 97);
+}
+
+.scroll-icon{
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 10px;
+    color: cadetblue;
+    transition: color 2s;
+}
+
+.scroll-icon:hover{
+    color: red;
+}
+
+.explore-menu-list hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: cadetblue;
+    border: none;
+}
